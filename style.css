@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&family=Anton&family=Bebas+Neue&family=Bitcount+Grid+Double:wght@100..900&family=Exile&family=Meie+Script&family=Monoton&family=Outfit:wght@100..900&family=Prata&family=Rubik+Vinyl&family=Share+Tech&family=WDXL+Lubrifont+TC&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Outfit;
+}
+.container{
+    background-color: transparent;
+    width: 70%;
+    height: 85vh;
+    margin: auto;
+    margin-top: 5%;
+    border: none;
+}
+.nav{
+    margin: auto;
+    width: 100%;
+    background-color: #0096c7;
+    height: 13vh;
+}
+.heading{
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+    padding: 5%;
+}
+.left-menu{
+    margin: auto;
+    padding: auto;
+    width: 14%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30%;
+    background-color: transparent;
+    gap: 10px;
+    margin-top: -10%;
+    margin-left: 65%;
+    max-width: 1200px;
+}
+.sub-heading{
+    color: azure;
+    font-size:100%;
+    font-weight: 600;
+}
+.inner-container{
+    border: none;
+    height: 60vh;
+    width: 85%;
+    margin: auto;
+    margin-top: 4%;
+}
+.footer{
+    background-color:  #0096c7;
+    width: 100%;
+    margin: auto;
+    height: 2vh;
+    margin-top: 9%;
+}
+.top-input{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+}
+.top-input input{
+    width: 45%;
+}
+.top-input-2{
+  margin: auto;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+.top-input-2 input{
+    width: 45%;
+}
+.inner-container-2{
+    width: 90%;
+    margin: auto;
+    margin-top: 4%;
+}
+.in-5{
+    width: 100%;
+}
+.top-input input{
+    display: flex;
+    max-width: 1200px;
+}
+input{
+    height: 3vh;
+    outline: none;
+    padding: 5px;
+}
+input::placeholder{
+    font-weight: 500;
+    opacity: 60%;
+}
+.middile-input{
+    margin: auto;
+    padding: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    margin-top: -4%;
+    
+}
+input[type="radio"]{
+    width: 20px;
+}
+.middile-input label{
+    margin: auto;
+    font-size: 100%; 
+    display: flex;
+}
+.type{
+    margin: auto;
+    margin-left: 5%;
+    font-weight: bold;
+    margin-top: 3%;
+}
+.middile-second{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.middile-second input{
+    width: 45%;
+}
+.mid{
+    margin: auto;
+    width: 90%;
+    margin-top:3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.mid input{
+    width: 45%;
+}
+.mid_m{
+    margin: auto;
+    width: 90%;
+    margin-top: 5%;
+}
+.mid_m input{
+    width: 100%;
+}
+.discription{
+    margin: auto;
+    width: 90%;
+    margin-top: 5%;
+}
+.discription p{
+    color: #495057;
+    font-weight: 500;
+}
+.sign{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.sign input{
+    width: 45%;
+}
+.sign #signature{
+    height: 7vh;
+}
+@media(max-width:800px){
+    .container{
+        margin: auto;
+        margin-left: 0%;
+        width: 100%;
+        margin-top: 20%;
+    }
+input[type="radio"]{
+    width: 20px;
+    margin-top: 5%;
+}
+    
+}
+@media(max-width:1854px){
+    .container{
+        
+    }
+}
